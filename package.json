@@ -1,0 +1,17 @@
+{
+  "name": "autoted-web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Autoteď.cz web a backend pro vyřizování přepravních poptávek e-mailem",
+  "engines": {
+    "node": ">=20.6"
+  },
+  "scripts": {
+    "build": "node scripts/build-static.js",
+    "start": "node --env-file=.env server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "nodemailer": "^10.5.0"
+  }
+}

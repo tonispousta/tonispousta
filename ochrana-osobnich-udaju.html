@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#071b33">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="description" content="Informace o zpracování osobních údajů z poptávkového formuláře autoteď.cz.">
+  <title>Ochrana osobních údajů | autoteď.cz</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/src/styles/style.css?v=demo-1">
+  <script src="/src/scripts/privacy.js?v=demo-1" defer></script>
+</head>
+<body class="privacy-page">
+  <a class="skip-link" href="#main">Přejít na obsah</a>
+  <div class="demo-banner" id="privacy-demo-banner" role="status">
+    <span>DEMO</span><p>Ukázkové zásady: provozovatel, kontakty a provozní údaje jsou fiktivní.</p>
+  </div>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="/" aria-label="Autoteď.cz – úvodní stránka">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 42 32" fill="none"><path d="M3 8.5A3.5 3.5 0 0 1 6.5 5h19A3.5 3.5 0 0 1 29 8.5V12h4.2a4 4 0 0 1 3.3 1.7l3.1 4.5c.3.4.4.9.4 1.4v4.1a2.3 2.3 0 0 1-2.3 2.3H36a5.1 5.1 0 0 1-10 0H16a5.1 5.1 0 0 1-10 0h-.7A2.3 2.3 0 0 1 3 23.7V8.5Z" fill="currentColor"/><path d="M29 15v5h7.6l-3.1-4.4a1.5 1.5 0 0 0-1.2-.6H29Z" fill="#55B9F2"/><circle cx="11" cy="24" r="2.5" fill="#fff"/><circle cx="31" cy="24" r="2.5" fill="#fff"/></svg>
+        </span>
+        <span class="brand-name">autoteď<span>.cz</span></span>
+      </a>
+      <a class="privacy-home-link" href="/">Zpět na hlavní stránku</a>
+    </div>
+  </header>
+
+  <main id="main" class="container privacy-content">
+    <p class="eyebrow"><span class="eyebrow-line"></span>Informace o zpracování údajů</p>
+    <h1>Ochrana osobních údajů</h1>
+    <p class="privacy-lead">Tento dokument popisuje, jak jsou zpracovávány údaje odeslané prostřednictvím poptávkového formuláře webu autoteď.cz.</p>
+    <p class="privacy-warning" id="privacy-demo-warning"><strong>DEMO / UKÁZKA:</strong> Jména, IČO, kontakty, dodavatelé i lhůty na této stránce jsou vymyšlené. Tento text není finální právní dokument a před zveřejněním musí být nahrazen ověřenými údaji a skutečnými postupy.</p>
+
+    <section>
+      <h2>1. Kdo je správcem údajů</h2>
+      <p>Správcem osobních údajů je podnikající fyzická osoba provozující web a služby pod značkou autoteď.cz:</p>
+      <dl class="privacy-details">
+        <div><dt>Podnikatel</dt><dd data-privacy-bind="businessDetails.legalName" data-privacy-placeholder="Ukázkový podnikatel">Ukázkový podnikatel</dd></div>
+        <div><dt>IČO</dt><dd data-privacy-bind="businessDetails.registrationNumber" data-privacy-placeholder="Ukázkový údaj">Ukázkový údaj</dd></div>
+        <div><dt>Místo podnikání</dt><dd data-privacy-bind="businessDetails.address" data-privacy-placeholder="Fiktivní adresa">Fiktivní adresa</dd></div>
+        <div><dt>E-mail</dt><dd><a data-privacy-link="contact.email" href="#main" data-privacy-bind="contact.email" data-privacy-placeholder="Ukázkový e-mail">Ukázkový e-mail</a></dd></div>
+        <div><dt>Telefon</dt><dd data-privacy-bind="contact.phone" data-privacy-placeholder="Ukázkový telefon">Ukázkový telefon</dd></div>
+      </dl>
+    </section>
+
+    <section>
+      <h2>2. Jaké údaje a proč zpracováváme</h2>
+      <p>Když odešlete poptávku, zpracováváme údaje, které do formuláře zadáte: jméno a příjmení, telefon, e-mail, případně firmu, místo nakládky a vykládky, popis stěhování či nákladu, jeho rozměry a hmotnost, požadovaný termín a další zprávu.</p>
+      <p>Údaje používáme k vyřízení vaší poptávky, komunikaci s vámi, přípravě nabídky a případné domluvě či plnění objednané služby. Právním základem pro tyto úkony je jednání o uzavření smlouvy na vaši žádost a následné plnění smlouvy. Účetní a jiné zákonné povinnosti se uplatní pouze tehdy a v rozsahu, v jakém se na konkrétní zakázku vztahují.</p>
+      <p>Pro ochranu formuláře před zneužitím zpracovává server také síťovou adresu požadavku v dočasném paměťovém čítači četnosti odesílání; čítač se obnovuje po 15 minutách. Aplikace tuto adresu neukládá do databáze ani ji nevkládá do e-mailu s poptávkou. Provozní záznamy poskytovatele hostingu se mohou řídit jeho vlastními pravidly.</p>
+    </section>
+
+    <section>
+      <h2>3. Kdo může údaje obdržet</h2>
+      <p>V reálném provozu by údaje z formuláře mohly být předány e-mailové schránce správce přes poskytovatele SMTP a technicky zpracovávány poskytovatelem hostingu. Následující dodavatelé jsou pouze ukázkoví:</p>
+      <dl class="privacy-details">
+        <div><dt>Poskytovatel e-mailu / SMTP</dt><dd data-privacy-bind="privacy.emailProvider" data-privacy-placeholder="Ukázkový poskytovatel">Ukázkový poskytovatel</dd></div>
+        <div><dt>Poskytovatel hostingu</dt><dd data-privacy-bind="privacy.hostingProvider" data-privacy-placeholder="Ukázkový poskytovatel">Ukázkový poskytovatel</dd></div>
+      </dl>
+      <p>Skutečné příjemce a případné předávání údajů mimo Evropský hospodářský prostor je nutné určit podle používaného hostingu a e-mailové služby.</p>
+    </section>
+
+    <section>
+      <h2>4. Jak dlouho údaje uchováváme</h2>
+      <p>V reálném provozu se doba uchovávání poptávek musí řídit skutečně nastavenými pravidly správce. Ukázková doba uvedená zde není skutečným příslibem ani platnou lhůtou: <strong data-privacy-bind="privacy.retentionPeriod" data-privacy-placeholder="Ukázková doba">Ukázková doba</strong>.</p>
+      <p>Pokud vznikne smluvní vztah, mohou být příslušné údaje uchovávány po dobu vyžadovanou právními předpisy nebo potřebnou k uplatnění či obraně právních nároků. Konkrétní lhůty se řídí druhem dokladu a okolnostmi případu.</p>
+    </section>
+
+    <section>
+      <h2>5. Vaše práva</h2>
+      <p>V rozsahu stanoveném právními předpisy můžete požádat o přístup ke svým údajům, jejich opravu nebo výmaz, omezení zpracování, vznést námitku nebo uplatnit právo na přenositelnost. Pokud se zpracování opírá o souhlas, můžete jej odvolat; odvolání nemá zpětný účinek na předchozí zákonné zpracování.</p>
+      <p>Své požadavky uplatněte u správce prostřednictvím výše uvedeného e-mailu. Máte také právo podat stížnost u <a href="https://uoou.gov.cz/" rel="noopener noreferrer">Úřadu pro ochranu osobních údajů</a>.</p>
+    </section>
+
+    <section>
+      <h2>6. Cookies a externí obsah</h2>
+      <p>Tento web nepoužívá analytické ani reklamní cookies a neobsahuje vložené sledovací prvky. Obrázky jsou připraveny jako místní soubory v rámci webu; webové fonty se načítají z běžných písem zařízení návštěvníka. Pokud budou později přidány analytické nástroje, externí obsah nebo jiné cookies, je nutné tuto část aktualizovat a zajistit odpovídající informování návštěvníků.</p>
+    </section>
+
+    <section>
+      <h2>7. Automatizované rozhodování a zabezpečení</h2>
+      <p>Ukázková verze nepředává údaje z formuláře ani je neukládá. Zabezpečení, doručování a případné automatizované zpracování je nutné ověřit pro skutečně provozovaný web.</p>
+    </section>
+
+    <p class="privacy-updated">Datum aktualizace: <span data-privacy-bind="privacy.lastUpdated">10. 11. 2026</span></p>
+    <p class="privacy-back"><a class="button button-primary" href="/#kontakt">Zpět na poptávku <span aria-hidden="true">↗</span></a></p>
+    <p id="privacy-load-error" class="privacy-load-error" role="status" aria-live="polite"></p>
+  </main>
+
+  <footer class="privacy-footer">
+    <div class="container"><a href="/">autoteď.cz</a> · Autodoprava z Chomutova se specializací na stěhování</div>
+  </footer>
+</body>
+</html>
